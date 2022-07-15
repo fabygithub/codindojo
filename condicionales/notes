@@ -1,0 +1,85 @@
+function toggleFlashlight(flashlight) {
+    if (flashlight.isOn == true) {
+        flashlight.isOn = false;
+    }
+    else {
+        flashlight.isOn = true;
+    }
+}
+
+
+lampara apagada
+lampara encendida
+inicio de la funcion
+
+
+el codigo se ejecuta bajo ciertas
+condiciones
+
+la lampara enciende si ya esta apagada
+sentecia condicional
+
+var x = 25;
+if (x > 50) {    
+    console.log("mayor a 50");
+}
+else {    
+    console.log("menor a 50");
+}
+// ya que x es menor que 50, la segunda sentencia print es la única que se ejecutará
+
+
+var x = 75;
+if (x > 100) {    
+    console.log("mayor a 100");
+}
+else if (x > 50) {    
+    console.log("mayor a 50");
+}
+else if(x > 25) {
+    console.log("mayor a 25");
+}
+else {    
+    console.log("número pequeño");
+}
+// debido a que la primera sentencia no es verdadera, 
+pero la segunda sí lo es, imprimirá "mayor a 50" en nuestra consola. 
+Sin embargo, ni siquiera intentará comprobar nuestras sentencias 
+else if(x > 25) o else porque ya ha encontrado algo en la cadena que es verdadero.
+
+tiene varias condiciones
+
+operadores logicos y de comparacion
+
+== igual 
+!= no es igual
+> mayor
+< menor
+>= mayor o igual
+<= menor o igual
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
